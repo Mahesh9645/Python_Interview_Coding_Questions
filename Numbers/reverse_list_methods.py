@@ -14,3 +14,8 @@ print("Reversed list using loop:", b)
 
 # Method 3: Using the built-in reversed() function
 print("Reversed list using reversed():", list(reversed(a)))
+
+# method 4: using reverse
+a = [1, 2, 3, 4, 5, 6]
+a.reverse()
+print(a)

@@ -4,7 +4,7 @@ data1 = []
 for i in name:
     if i in data:
         data1.append(i)
-
+data1 = ''.join(data1)
 print(len(data1),data1)
 
 

@@ -21,7 +21,7 @@ if is_prime:
 print("Prime numbers between 2 and 50:")
 for i in range(2, 51):
     is_prime = True  # Reset flag for each number
-    for j in range(2, int(i**0.5) + 1):  # Check for factors up to the square root of i
+    for j in range(2, i):  # Check for factors up to the square root of i
         if i % j == 0:  # If i is divisible by j
             is_prime = False
             break

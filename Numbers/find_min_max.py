@@ -1,5 +1,5 @@
 # Input list of numbers
-list3 = [10, 546, 94, 99, 24, 73, 11, 77, 63, 95]
+list3 = [101,10, 54, 94, 99, 24, 73, 11, 77, 63, 95,1]
 
 # Initialize max_number and min_number with the first element of the list
 max_number = list3[0]
