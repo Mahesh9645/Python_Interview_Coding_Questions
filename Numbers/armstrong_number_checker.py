@@ -15,4 +15,31 @@ for digits in str(n):  # Loop through each digit in the number
 print(sum == n)  # True if it's an Armstrong number, False otherwise
 
 # Print the number of digits in the number
-print(len(str(n)))  # Output the number of digits
+print(len(str(n)))  # Output the number of digits 
+
+
+
+#################### Regular Method ######################
+def is_armstrong(number):
+    # Find the number of digits
+    n = len(str(number))
+    
+    # Initialize sum
+    armstrong_sum = 0
+    
+    # Loop through each digit of the number
+    temp = number
+    while temp > 0:
+        digit = temp % 10  # Extract the last digit
+        armstrong_sum += digit ** n  # Raise it to the power of the number of digits and add
+        temp = temp//10  # Remove the last digit
+    
+    # Check if the computed sum matches the original number
+    return armstrong_sum == number
+
+# Test cases
+num = 153
+if is_armstrong(num):
+    print(f"{num} is an Armstrong number.")
+else:
+    print(f"{num} is not an Armstrong number.")

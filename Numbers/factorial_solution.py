@@ -9,6 +9,8 @@ def factorial_iterative(n):
 def factorial_recursive(n):
     if n == 0:  # Base case: factorial of 0 is 1
         return 1
+    elif n <0:
+        print("undefined")
     else:
         return n * factorial_recursive(n - 1)  # Recursive step
 

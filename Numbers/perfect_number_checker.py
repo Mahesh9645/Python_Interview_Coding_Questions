@@ -14,8 +14,9 @@ if n == sum_of_divisors:
     print(f"{n} is a perfect number.")
 else:
     print(f"{n} is not a perfect number.")
-
-# Print perfect numbers from 1 to 500
+print("   ")
+print("################Print perfect numbers from 1 to 500###########")
+print("   ")
 print("Perfect numbers between 1 and 500:")
 for i in range(1, 501):
     sum_of_divisors = 0  # Reset sum for each number

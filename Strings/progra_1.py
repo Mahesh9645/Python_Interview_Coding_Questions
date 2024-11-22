@@ -65,3 +65,20 @@ for x in s:
 for k,v in d.items():
     print("{} = {} Times".format(k,v))
 
+print("#################################################")
+
+duplicate_list = ["apple", "banana", "apple", "orange", "banana","banana", "apple", "orange","banana", "apple", "orange"]
+print(duplicate_list)
+non_duplicate = {}
+
+for item in duplicate_list:
+    if item in d.keys():
+        non_duplicate[item] = non_duplicate[item]+1
+    else:
+        non_duplicate[item] = 1
+
+print(non_duplicate)
+for a,b in non_duplicate.items():
+    print("{} = {} Times".format(a,b))
+
+

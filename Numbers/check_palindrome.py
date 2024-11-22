@@ -6,7 +6,7 @@ rev = 0  # Initialize the reverse variable
 # Loop to reverse the number
 while a > 0:
     rev = rev * 10
-    rev = rev +a % 10  # Build the reversed number
+    rev = rev + a % 10  # Build the reversed number
     a = a // 10  # Remove the last digit from a
 
 # Print the reversed number
