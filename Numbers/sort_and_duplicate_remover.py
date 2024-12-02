@@ -8,7 +8,7 @@ for i in range(len(numbers)):
             numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]  # Swap if they are in the wrong order
 
 # Print the sorted list
-print("Sorted list:", numbers)
+print("Sorted list:", list(set(numbers)))
 
 # Print the maximum value, which is the last element after sorting
 print("Maximum value:", numbers[-1])  # Last element after sorting

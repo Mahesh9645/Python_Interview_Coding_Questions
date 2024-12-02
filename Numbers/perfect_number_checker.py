@@ -15,6 +15,7 @@ if n == sum_of_divisors:
 else:
     print(f"{n} is not a perfect number.")
 print("   ")
+
 print("################Print perfect numbers from 1 to 500###########")
 print("   ")
 print("Perfect numbers between 1 and 500:")

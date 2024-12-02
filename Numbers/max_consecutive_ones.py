@@ -1,5 +1,5 @@
 # Input list containing 0s and 1s
-l1 = [1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1]
+l1 = [1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1]
 
 # Initialize variables to keep track of the current count and maximum count of consecutive 1s
 count = 0

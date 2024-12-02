@@ -13,5 +13,5 @@ def validate_parentheses(s):
     return len(stack) == 0
 
 # Example usage
-string = "{[(]}"
+string = "{[()]}"
 print("Is valid:", validate_parentheses(string))  # Output: True

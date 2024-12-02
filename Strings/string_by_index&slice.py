@@ -8,6 +8,7 @@ for x in s:
 # by slice
 
 print(s[::-1])
-
+reverse1 = ""
 for a in range(len(s)-1,-1,-1):
-    print(a)
+    reverse1 =reverse1 + s[a]
+print(a)
