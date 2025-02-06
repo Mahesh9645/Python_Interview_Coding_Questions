@@ -15,3 +15,23 @@ for i in l3:
 
 # Print the list of unique elements
 print("Unique elements from combined lists:", l4)
+
+
+"""
+get duplicatr elements
+"""
+
+my_list = [1, 2, 3, 4, 5, 2, 6, 7, 8, 3, 1]
+
+duplicate_elements = []
+unique_elements = []
+
+for num in my_list:
+    if num in unique_elements:
+        duplicate_elements.append(num)
+    
+    else:
+        unique_elements.append(num)
+
+print("duplicate_elements",duplicate_elements)
+print("unique_elements",unique_elements)

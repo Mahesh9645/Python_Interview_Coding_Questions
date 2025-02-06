@@ -1,4 +1,4 @@
-n = 1234589234567886
+n = 12345892345678861
 while len(str(n)) > 1:  # Continue until the number becomes a single digit
     sum_digits = 0
     for digit in str(n):  # Iterate over each digit in the number
