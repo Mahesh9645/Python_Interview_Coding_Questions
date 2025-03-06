@@ -11,6 +11,10 @@ print("Reversed list using slicing:", a[::-1])
 b = []
 for i in range(len(a) - 1, -1, -1):
     b.append(a[i])
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 4e89490 (update)
 print("Reversed list using loop:", b)
 #2
 lst = [1, 2, 3, 4, 5]
